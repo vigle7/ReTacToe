@@ -622,14 +622,15 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 6EAH6G3F2S;
+						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
 				};
@@ -1082,9 +1083,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 6EAH6G3F2S;
+				DEVELOPMENT_TEAM = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
@@ -1098,6 +1102,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.compal.CodePushTest;
 				PRODUCT_NAME = ReTacToe;
+				PROVISIONING_PROFILE = "f632afbd-9032-424f-b510-0e0e04657105";
+				PROVISIONING_PROFILE_SPECIFIER = CodePushTestRelease;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1106,8 +1112,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6EAH6G3F2S;
+				DEVELOPMENT_TEAM = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
@@ -1121,6 +1130,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.compal.CodePushTest;
 				PRODUCT_NAME = ReTacToe;
+				PROVISIONING_PROFILE = "f632afbd-9032-424f-b510-0e0e04657105";
+				PROVISIONING_PROFILE_SPECIFIER = CodePushTestRelease;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

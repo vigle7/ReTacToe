@@ -4,7 +4,12 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "build-ios": "react-native bundle --entry-file index.ios.js --bundle-output ./ios/bundle/index.ios.jsbundle --platform ios --assets-dest ./ios/bundle --dev false  --reset-cache",
+    "build-android": "react-native bundle --entry-file index.android.js --bundle-output ./android/app/src/main/assets/index.android.bundle --platform android --assets-dest ./android/app/src/main/res --dev false  --reset-cache",
+    "ios": "react-native run-ios --simulator=\"iPhone 7\"",
+    "android": "react-native run-android",
+    "link": "react-native link"
   },
   "dependencies": {
     "react": "16.0.0-alpha.6",
