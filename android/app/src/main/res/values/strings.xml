@@ -1,3 +1,4 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">0frFDT0LRzLi_jVsMCdFcvgm7BGtHkenPClzX</string>
     <string name="app_name">ReTacToe</string>
 </resources>

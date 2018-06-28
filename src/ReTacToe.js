@@ -7,10 +7,11 @@ import {
 } from 'react-native';
 import Board from './Board';
 import styles from './Style';
+import codePush from "react-native-code-push";
 
 class ReTacToe extends Component {
   render() {
-    return(
+    return (
       <View style={styles.rootContainer}>
         <StatusBar backgroundColor="#0077c2" />
         <View style={styles.displayContainer}>
@@ -22,4 +23,5 @@ class ReTacToe extends Component {
   }
 }
 
+ReTacToe = codePush(ReTacToe);
 AppRegistry.registerComponent('ReTacToe', () => ReTacToe);
