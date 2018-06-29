@@ -1,96 +1,95 @@
-2018-06-29 03:00:01 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ffb53dd31e0; archive(resolved)='<IDEArchive: 0x7ffb53cf4310>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team(resolved)='<IDEProvisioningBasicTeam 0x7ffb53d95660: teamID: 6EAH6G3F2S, teamName: (null)>'>
+2018-06-29 05:47:00 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fed97811890; archive(resolved)='<IDEArchive: 0x7fed97722a20>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team(resolved)='<IDEProvisioningBasicTeam 0x7fed97759770: teamID: 6EAH6G3F2S, teamName: (null)>'>
 	Chain (11, self inclusive):
-	<IDEDistributionProcessingPipelineContext: 0x7ffb53dd31e0; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team='<IDEProvisioningBasicTeam 0x7ffb53d95660: teamID: 6EAH6G3F2S, teamName: (null)>'>
-	<IDEDistributionProcessingPipelineContext: 0x7ffb540b34d0; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team='<IDEProvisioningBasicTeam 0x7ffb53d95660: teamID: 6EAH6G3F2S, teamName: (null)>'>
-	<IDEDistributionContext: 0x7ffb540a0030; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team='<IDEProvisioningBasicTeam 0x7ffb53d95660: teamID: 6EAH6G3F2S, teamName: (null)>'>
-	<IDEDistributionContext: 0x7ffb54098250; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team='<IDEProvisioningBasicTeam 0x7ffb53d95660: teamID: 6EAH6G3F2S, teamName: (null)>'>
-	<IDEDistributionContext: 0x7ffb54096f00; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team='<IDEProvisioningBasicTeam 0x7ffb53d95660: teamID: 6EAH6G3F2S, teamName: (null)>'>
-	<IDEDistributionContext: 0x7ffb53da9bc0; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team='<IDEProvisioningBasicTeam 0x7ffb53d95660: teamID: 6EAH6G3F2S, teamName: (null)>'>
-	<IDEDistributionContext: 0x7ffb540789a0; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team='<IDEProvisioningBasicTeam 0x7ffb53d95660: teamID: 6EAH6G3F2S, teamName: (null)>'>
-	<IDEDistributionContext: 0x7ffb53da77b0; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team='<IDEProvisioningBasicTeam 0x7ffb53d95660: teamID: 6EAH6G3F2S, teamName: (null)>'>
-	<IDEDistributionContext: 0x7ffb540131e0; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team='<IDEProvisioningBasicTeam 0x7ffb53d95660: teamID: 6EAH6G3F2S, teamName: (null)>'>
-	<IDEDistributionContext: 0x7ffb54009c60; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7ffb53d7a1f0>', team='(null)'>
-	<IDEDistributionContext: 0x7ffb53d688a0; archive = '<IDEArchive: 0x7ffb53cf4310>', distributionMethod='(null)', team='(null)'>
-</IDEDistributionProcessingPipelineContext: 0x7ffb53dd31e0>
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionCopyItemStep
-2018-06-29 03:00:01 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/Products/Applications/ReTacToe.app' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/Root/Payload/ReTacToe.app'
-2018-06-29 03:00:01 +0000  >>> Copying /Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/Products/Applications/ReTacToe.app 
-2018-06-29 03:00:01 +0000  copying file ./_CodeSignature/CodeResources ... 
-2018-06-29 03:00:01 +0000  4677 bytes for ./_CodeSignature/CodeResources
-2018-06-29 03:00:01 +0000  copying file ./ReTacToe ... 
-2018-06-29 03:00:01 +0000  14966304 bytes for ./ReTacToe
-2018-06-29 03:00:01 +0000  copying file ./AppIcon60x60@2x.png ... 
-2018-06-29 03:00:01 +0000  22289 bytes for ./AppIcon60x60@2x.png
+	<IDEDistributionProcessingPipelineContext: 0x7fed97811890; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team='<IDEProvisioningBasicTeam 0x7fed97759770: teamID: 6EAH6G3F2S, teamName: (null)>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fed977aad50; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team='<IDEProvisioningBasicTeam 0x7fed97759770: teamID: 6EAH6G3F2S, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fed9780c3e0; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team='<IDEProvisioningBasicTeam 0x7fed97759770: teamID: 6EAH6G3F2S, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fed9778dc80; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team='<IDEProvisioningBasicTeam 0x7fed97759770: teamID: 6EAH6G3F2S, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fed97771d40; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team='<IDEProvisioningBasicTeam 0x7fed97759770: teamID: 6EAH6G3F2S, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fed9781deb0; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team='<IDEProvisioningBasicTeam 0x7fed97759770: teamID: 6EAH6G3F2S, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fed97774230; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team='<IDEProvisioningBasicTeam 0x7fed97759770: teamID: 6EAH6G3F2S, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fed97755360; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team='<IDEProvisioningBasicTeam 0x7fed97759770: teamID: 6EAH6G3F2S, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fed97749230; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team='<IDEProvisioningBasicTeam 0x7fed97759770: teamID: 6EAH6G3F2S, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fed976621a0; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fed9764eef0>', team='(null)'>
+	<IDEDistributionContext: 0x7fed97723600; archive = '<IDEArchive: 0x7fed97722a20>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fed97811890>
+2018-06-29 05:47:00 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2018-06-29 05:47:00 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2018-06-29 05:47:00 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/Products/Applications/ReTacToe.app' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/Root/Payload/ReTacToe.app'
+2018-06-29 05:47:00 +0000  >>> Copying /Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/Products/Applications/ReTacToe.app 
+2018-06-29 05:47:00 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-06-29 05:47:00 +0000  4677 bytes for ./_CodeSignature/CodeResources
+2018-06-29 05:47:00 +0000  copying file ./ReTacToe ... 
+2018-06-29 05:47:00 +0000  14966304 bytes for ./ReTacToe
+copying file ./AppIcon60x60@2x.png ... 
+2018-06-29 05:47:00 +0000  22289 bytes for ./AppIcon60x60@2x.png
 copying file ./AppIcon60x60@3x.png ... 
 41387 bytes for ./AppIcon60x60@3x.png
 copying file ./Base.lproj/LaunchScreen.nib ... 
-2018-06-29 03:00:01 +0000  3087 bytes for ./Base.lproj/LaunchScreen.nib
+3084 bytes for ./Base.lproj/LaunchScreen.nib
 copying file ./archived-expanded-entitlements.xcent ... 
-2018-06-29 03:00:01 +0000  384 bytes for ./archived-expanded-entitlements.xcent
+384 bytes for ./archived-expanded-entitlements.xcent
 copying file ./Assets.car ... 
-2018-06-29 03:00:01 +0000  84056 bytes for ./Assets.car
-2018-06-29 03:00:01 +0000  copying file ./main.jsbundle.meta ... 
-2018-06-29 03:00:01 +0000  21 bytes for ./main.jsbundle.meta
+2018-06-29 05:47:00 +0000  923464 bytes for ./Assets.car
+copying file ./main.jsbundle.meta ... 
+2018-06-29 05:47:00 +0000  21 bytes for ./main.jsbundle.meta
 copying file ./main.jsbundle ... 
-2018-06-29 03:00:01 +0000  547188 bytes for ./main.jsbundle
-2018-06-29 03:00:01 +0000  copying file ./embedded.mobileprovision ... 
+2018-06-29 05:47:00 +0000  547188 bytes for ./main.jsbundle
+copying file ./embedded.mobileprovision ... 
 7545 bytes for ./embedded.mobileprovision
 copying file ./Info.plist ... 
-2018-06-29 03:00:01 +0000  1452 bytes for ./Info.plist
-copying file ./PkgInfo ... 
-8 bytes for ./PkgInfo
-2018-06-29 03:00:01 +0000  
-2018-06-29 03:00:01 +0000  2018-06-29 03:00:01 +0000  
+2018-06-29 05:47:00 +0000  1491 bytes for ./Info.plist
+2018-06-29 05:47:00 +0000  copying file ./PkgInfo ... 
+2018-06-29 05:47:00 +0000  8 bytes for ./PkgInfo
+2018-06-29 05:47:00 +0000  2018-06-29 05:47:00 +0000  
 
-2018-06-29 03:00:01 +0000 [MT] /usr/bin/ditto exited with 0
-2018-06-29 03:00:01 +0000  2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
-2018-06-29 03:00:01 +0000  
+2018-06-29 05:47:00 +0000  2018-06-29 05:47:00 +0000 [MT] /usr/bin/ditto exited with 0
 
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionItemRemovalStep
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
-2018-06-29 03:00:01 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
-2018-06-29 03:00:01 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
-2018-06-29 03:00:01 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/BCSymbolMaps/A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/Root/BCSymbolMaps/A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap'
-2018-06-29 03:00:01 +0000  >>> Copying /Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/BCSymbolMaps/A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap 
-2018-06-29 03:00:01 +0000  copying file ./A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap ... 
-2018-06-29 03:00:01 +0000  363547 bytes for ./A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap
-2018-06-29 03:00:01 +0000  
-2018-06-29 03:00:01 +0000  2018-06-29 03:00:01 +0000  2018-06-29 03:00:01 +0000 [MT] /usr/bin/ditto exited with 0
+2018-06-29 05:47:00 +0000  
+2018-06-29 05:47:00 +0000  
+2018-06-29 05:47:00 +0000  2018-06-29 05:47:00 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
 
+2018-06-29 05:47:00 +0000 [MT] Processing step: IDEDistributionItemRemovalStep
+2018-06-29 05:47:00 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2018-06-29 05:47:00 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-06-29 05:47:00 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2018-06-29 05:47:00 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-06-29 05:47:00 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2018-06-29 05:47:00 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-06-29 05:47:00 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/BCSymbolMaps/A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/Root/BCSymbolMaps/A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap'
+2018-06-29 05:47:00 +0000  >>> Copying /Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/BCSymbolMaps/A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap 
+2018-06-29 05:47:00 +0000  copying file ./A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap ... 
+2018-06-29 05:47:00 +0000  363547 bytes for ./A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap
+2018-06-29 05:47:00 +0000  
+2018-06-29 05:47:00 +0000 [MT] /usr/bin/ditto exited with 02018-06-29 05:47:00 +0000  
 
-2018-06-29 03:00:01 +0000  
-2018-06-29 03:00:01 +0000  
-2018-06-29 03:00:01 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/BCSymbolMaps/61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/Root/BCSymbolMaps/61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap'
-2018-06-29 03:00:01 +0000  >>> Copying /Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/BCSymbolMaps/61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap 
-2018-06-29 03:00:01 +0000  copying file ./61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap ... 
-2018-06-29 03:00:01 +0000  360390 bytes for ./61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap
-2018-06-29 03:00:01 +0000  
-2018-06-29 03:00:01 +0000  2018-06-29 03:00:01 +0000 [MT] /usr/bin/ditto exited with 0
-2018-06-29 03:00:01 +0000  
+2018-06-29 05:47:00 +0000  
+2018-06-29 05:47:00 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/BCSymbolMaps/61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/Root/BCSymbolMaps/61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap'
+2018-06-29 05:47:00 +0000  >>> Copying /Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/BCSymbolMaps/61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap 
+2018-06-29 05:47:00 +0000  copying file ./61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap ... 
+2018-06-29 05:47:00 +0000  360390 bytes for ./61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap
+2018-06-29 05:47:00 +0000  
+2018-06-29 05:47:00 +0000  2018-06-29 05:47:00 +0000 [MT] /usr/bin/ditto exited with 0
 
-2018-06-29 03:00:01 +0000  
-2018-06-29 03:00:01 +0000  
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionSymbolsStep
-2018-06-29 03:00:01 +0000 [MT] Excluding symbols for ReTacToe.app
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionCopyAppleProvidedContentStep
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionAppThinningStep
-2018-06-29 03:00:01 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionODRStep
-2018-06-29 03:00:01 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
-2018-06-29 03:00:01 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/Root/Payload/ReTacToe.app'
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000  2018-06-29 03:00:02 +0000 [MT] /usr/bin/xattr exited with 02018-06-29 03:00:02 +0000  
+2018-06-29 05:47:00 +0000  2018-06-29 05:47:00 +0000  
 
+2018-06-29 05:47:00 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2018-06-29 05:47:01 +0000 [MT] Excluding symbols for ReTacToe.app
+2018-06-29 05:47:01 +0000 [MT] Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-06-29 05:47:01 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2018-06-29 05:47:01 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2018-06-29 05:47:01 +0000 [MT] Processing step: IDEDistributionODRStep
+2018-06-29 05:47:01 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2018-06-29 05:47:01 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/Root/Payload/ReTacToe.app'
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  2018-06-29 05:47:01 +0000 [MT] /usr/bin/xattr exited with 0
 
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000 [MT] Processing step: IDEDistributionCodesignStep
-2018-06-29 03:00:02 +0000 [MT] Applying entitlements delta for <IDEDistributionItem: 0x7ffb53da62b0 'com.compal.CodePushTest' '<DVTFilePath:0x7ffb53cf4b20:'/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/Products/Applications/ReTacToe.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7ffb54072340>: {
+2018-06-29 05:47:01 +0000  2018-06-29 05:47:01 +0000  
+
+2018-06-29 05:47:01 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2018-06-29 05:47:01 +0000 [MT] Applying entitlements delta for <IDEDistributionItem: 0x7fed976f18f0 'com.compal.CodePushTest' '<DVTFilePath:0x7fed97723250:'/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/Products/Applications/ReTacToe.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fed9778b530>: {
 }
-2018-06-29 03:00:02 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7ffb53da62b0 'com.compal.CodePushTest' '<DVTFilePath:0x7ffb53cf4b20:'/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/Products/Applications/ReTacToe.app'>'>: {
+2018-06-29 05:47:01 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fed976f18f0 'com.compal.CodePushTest' '<DVTFilePath:0x7fed97723250:'/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/Products/Applications/ReTacToe.app'>'>: {
     "application-identifier" = "6EAH6G3F2S.com.compal.CodePushTest";
     "beta-reports-active" = 1;
     "com.apple.developer.team-identifier" = 6EAH6G3F2S;
@@ -99,60 +98,63 @@ copying file ./PkgInfo ...
         "6EAH6G3F2S.com.compal.CodePushTest"
     );
 }
-2018-06-29 03:00:02 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7ffb53da62b0 'com.compal.CodePushTest' '<DVTFilePath:0x7ffb53cf4b20:'/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/Products/Applications/ReTacToe.app'>'> to: /var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/entitlements8slQ4Y
-2018-06-29 03:00:02 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CFB66075F0FAA5992A5F1B8717D0216965E1BA85' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/entitlements8slQ4Y' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/Root/Payload/ReTacToe.app'
-2018-06-29 03:00:02 +0000  /var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/Root/Payload/ReTacToe.app: signed app bundle with Mach-O universal (armv7 arm64) [com.compal.CodePushTest]
-2018-06-29 03:00:02 +0000  2018-06-29 03:00:02 +0000  
+2018-06-29 05:47:01 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fed976f18f0 'com.compal.CodePushTest' '<DVTFilePath:0x7fed97723250:'/Users/nick/Documents/newpath/ReTacToe/ios/build/ReTacToe.xcarchive/Products/Applications/ReTacToe.app'>'> to: /var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/entitlements8aXp87
+2018-06-29 05:47:01 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'CFB66075F0FAA5992A5F1B8717D0216965E1BA85' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/entitlements8aXp87' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/Root/Payload/ReTacToe.app'
+2018-06-29 05:47:01 +0000  /var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/Root/Payload/ReTacToe.app: signed app bundle with Mach-O universal (armv7 arm64) [com.compal.CodePushTest]
+2018-06-29 05:47:01 +0000  2018-06-29 05:47:01 +0000  
 
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000  2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000 [MT] /usr/bin/codesign exited with 0
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  2018-06-29 05:47:01 +0000  
 
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000  
-2018-06-29 03:00:02 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
-2018-06-29 03:00:02 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
-2018-06-29 03:00:02 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
-2018-06-29 03:00:02 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/Root' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/Packages/ReTacToe.ipa'
-2018-06-29 03:00:02 +0000  >>> Copying /var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.zOl/Root 
-2018-06-29 03:00:02 +0000  copying file ./BCSymbolMaps/61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap ... 
-2018-06-29 03:00:02 +0000  360390 bytes for ./BCSymbolMaps/61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap
+2018-06-29 05:47:01 +0000  2018-06-29 05:47:01 +0000  
+
+2018-06-29 05:47:01 +0000 [MT] /usr/bin/codesign exited with 02018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  
+
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000  
+2018-06-29 05:47:01 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
+2018-06-29 05:47:01 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-29 05:47:01 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2018-06-29 05:47:01 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/Root' '/var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/Packages/ReTacToe.ipa'
+2018-06-29 05:47:01 +0000  >>> Copying /var/folders/0j/wvg9g8h52nxdmfk_l5w3gv740000gp/T/XcodeDistPipeline.HEi/Root 
+2018-06-29 05:47:01 +0000  copying file ./BCSymbolMaps/61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap ... 
+2018-06-29 05:47:01 +0000  360390 bytes for ./BCSymbolMaps/61D2767B-E8AB-35ED-A52B-979BA4708D51.bcsymbolmap
 copying file ./BCSymbolMaps/A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap ... 
-2018-06-29 03:00:02 +0000  363547 bytes for ./BCSymbolMaps/A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap
-2018-06-29 03:00:02 +0000  copying file ./Payload/ReTacToe.app/_CodeSignature/CodeResources ... 
-2018-06-29 03:00:02 +0000  4677 bytes for ./Payload/ReTacToe.app/_CodeSignature/CodeResources
-2018-06-29 03:00:02 +0000  copying file ./Payload/ReTacToe.app/ReTacToe ... 
-2018-06-29 03:00:03 +0000  12223392 bytes for ./Payload/ReTacToe.app/ReTacToe
+2018-06-29 05:47:01 +0000  363547 bytes for ./BCSymbolMaps/A505FE55-1B3B-38F8-A274-06060F875ABE.bcsymbolmap
+2018-06-29 05:47:01 +0000  copying file ./Payload/ReTacToe.app/_CodeSignature/CodeResources ... 
+2018-06-29 05:47:01 +0000  4677 bytes for ./Payload/ReTacToe.app/_CodeSignature/CodeResources
+2018-06-29 05:47:01 +0000  copying file ./Payload/ReTacToe.app/ReTacToe ... 
+2018-06-29 05:47:02 +0000  12223392 bytes for ./Payload/ReTacToe.app/ReTacToe
 copying file ./Payload/ReTacToe.app/AppIcon60x60@2x.png ... 
-2018-06-29 03:00:03 +0000  22289 bytes for ./Payload/ReTacToe.app/AppIcon60x60@2x.png
+2018-06-29 05:47:02 +0000  22289 bytes for ./Payload/ReTacToe.app/AppIcon60x60@2x.png
 copying file ./Payload/ReTacToe.app/AppIcon60x60@3x.png ... 
-2018-06-29 03:00:03 +0000  41387 bytes for ./Payload/ReTacToe.app/AppIcon60x60@3x.png
-2018-06-29 03:00:03 +0000  copying file ./Payload/ReTacToe.app/Base.lproj/LaunchScreen.nib ... 
-2018-06-29 03:00:03 +0000  3087 bytes for ./Payload/ReTacToe.app/Base.lproj/LaunchScreen.nib
-2018-06-29 03:00:03 +0000  copying file ./Payload/ReTacToe.app/archived-expanded-entitlements.xcent ... 
-2018-06-29 03:00:03 +0000  384 bytes for ./Payload/ReTacToe.app/archived-expanded-entitlements.xcent
-copying file ./Payload/ReTacToe.app/Assets.car ... 
-2018-06-29 03:00:03 +0000  84056 bytes for ./Payload/ReTacToe.app/Assets.car
+2018-06-29 05:47:02 +0000  41387 bytes for ./Payload/ReTacToe.app/AppIcon60x60@3x.png
+2018-06-29 05:47:02 +0000  copying file ./Payload/ReTacToe.app/Base.lproj/LaunchScreen.nib ... 
+2018-06-29 05:47:02 +0000  3084 bytes for ./Payload/ReTacToe.app/Base.lproj/LaunchScreen.nib
+2018-06-29 05:47:02 +0000  copying file ./Payload/ReTacToe.app/archived-expanded-entitlements.xcent ... 
+384 bytes for ./Payload/ReTacToe.app/archived-expanded-entitlements.xcent
+2018-06-29 05:47:02 +0000  copying file ./Payload/ReTacToe.app/Assets.car ... 
+2018-06-29 05:47:02 +0000  923464 bytes for ./Payload/ReTacToe.app/Assets.car
 copying file ./Payload/ReTacToe.app/main.jsbundle.meta ... 
-2018-06-29 03:00:03 +0000  21 bytes for ./Payload/ReTacToe.app/main.jsbundle.meta
+2018-06-29 05:47:02 +0000  21 bytes for ./Payload/ReTacToe.app/main.jsbundle.meta
 copying file ./Payload/ReTacToe.app/main.jsbundle ... 
-2018-06-29 03:00:03 +0000  547188 bytes for ./Payload/ReTacToe.app/main.jsbundle
+2018-06-29 05:47:02 +0000  547188 bytes for ./Payload/ReTacToe.app/main.jsbundle
 copying file ./Payload/ReTacToe.app/embedded.mobileprovision ... 
-2018-06-29 03:00:03 +0000  7545 bytes for ./Payload/ReTacToe.app/embedded.mobileprovision
+2018-06-29 05:47:02 +0000  7545 bytes for ./Payload/ReTacToe.app/embedded.mobileprovision
 copying file ./Payload/ReTacToe.app/Info.plist ... 
-2018-06-29 03:00:03 +0000  1452 bytes for ./Payload/ReTacToe.app/Info.plist
+2018-06-29 05:47:02 +0000  1491 bytes for ./Payload/ReTacToe.app/Info.plist
 copying file ./Payload/ReTacToe.app/PkgInfo ... 
-2018-06-29 03:00:03 +0000  8 bytes for ./Payload/ReTacToe.app/PkgInfo
-2018-06-29 03:00:03 +0000  
-2018-06-29 03:00:03 +0000  2018-06-29 03:00:03 +0000 [MT] /usr/bin/ditto exited with 0
+2018-06-29 05:47:02 +0000  8 bytes for ./Payload/ReTacToe.app/PkgInfo
+2018-06-29 05:47:02 +0000  
+2018-06-29 05:47:02 +0000  2018-06-29 05:47:02 +0000 [MT] /usr/bin/ditto exited with 0
+2018-06-29 05:47:02 +0000  
 
-2018-06-29 03:00:03 +0000  
-2018-06-29 03:00:03 +0000  
-2018-06-29 03:00:03 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
-2018-06-29 03:00:03 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so
+2018-06-29 05:47:02 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2018-06-29 05:47:02 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so
