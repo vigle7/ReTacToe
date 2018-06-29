@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { 
+import {
   View,
   TouchableHighlight,
   Button,
@@ -56,13 +56,13 @@ class Board extends Component {
 
   renderSquare(i, style) {
     return (
-      <TouchableHighlight 
-        style={style} 
+      <TouchableHighlight
+        style={style}
         underlayColor="#1E88E5"
         onPress={() => this.handleClick(i)}>
 
         <Animated.Text
-          style={{fontSize: 48, fontWeight: '100', color: '#e1f5fe', transform: [{scale: this.springValue}] }}>
+          style={{ fontSize: 48, fontWeight: '100', color: '#e1f5fe', transform: [{ scale: this.springValue }] }}>
           {this.state.squares[i]}
         </Animated.Text>
       </TouchableHighlight>
@@ -75,31 +75,31 @@ class Board extends Component {
 
     if (winner) {
       Alert.alert(
-        'Permainan Selesai',
-        winner +' menang',
+        '遊戲結束',
+        winner + '玩家 勝利',
         [
-          { text: 'OK', onPress: () => this.setState({squares: Array(9).fill(null)}) }
+          { text: 'OK', onPress: () => this.setState({ squares: Array(9).fill(null) }) }
         ],
         { cancelable: false }
       )
 
-      status = winner +' menang';
+      status = winner + '玩家 勝利';
     } else if (!winner && this.state.squares.every(checkAllSquare)) {
       Alert.alert(
-        'Permainan Selesai',
-        'Hasil Seri',
+        '遊戲結束',
+        '平手',
         [
-          { text: 'OK', onPress: () => this.setState({squares: Array(9).fill(null)}) }
+          { text: 'OK', onPress: () => this.setState({ squares: Array(9).fill(null) }) }
         ]
       )
 
-      status = 'hasil seri';
+      status = '遊戲結束';
     } else {
-      status = 'Next player : '+(this.state.xIsNext ? 'X': 'O');
+      status = '下一位玩家 : ' + (this.state.xIsNext ? 'X' : 'O');
     }
 
-    return(
-      <View style={{flex: 1}}>
+    return (
+      <View style={{ flex: 1 }}>
         <View style={styles.board}>
           <View style={styles.squareRow}>
             {this.renderSquare(0, [styles.square, styles.rightBorder, styles.bottomBorder])}
@@ -120,9 +120,9 @@ class Board extends Component {
         <View style={styles.footer}>
           <Text style={styles.status}>{status}</Text>
           <View style={{ alignItems: 'flex-end', flex: 2 }}>
-            <Button 
-              title="RESET"
-              onPress={() => this.setState({squares: Array(9).fill(null)} )} />
+            <Button
+              title="重置"
+              onPress={() => this.setState({ squares: Array(9).fill(null) })} />
           </View>
         </View>
       </View>

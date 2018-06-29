@@ -26,7 +26,7 @@ class ReTacToe extends Component {
     codePush.checkForUpdate()
       .then((update) => {
         if (!update) {
-          console.log("The app is up to date!");
+          //console.log("The app is up to date!");
         } else {
           this.setState({ checkUp: true })
         }
@@ -61,7 +61,7 @@ class ReTacToe extends Component {
           <View style={styles.rootContainer}>
             <StatusBar backgroundColor="#0077c2" />
             <View style={styles.displayContainer}>
-              <Text style={styles.appsTitle}>React Native Tic Tac Toe</Text>
+              <Text style={styles.appsTitle}>井字遊戲</Text>
               <Board />
             </View>
           </View>

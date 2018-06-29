@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     marginTop: 16
   },
   appsTitle: {
-    marginTop: 16,
+    marginTop: 50,
     marginBottom: 16,
     fontSize: 20,
     fontWeight: 'bold',
